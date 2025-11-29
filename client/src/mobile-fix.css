@@ -22,3 +22,22 @@ section {
         max-width: 80rem !important;
     }
 }
+
+/* Fix contact section alignment on mobile */
+@media (max-width: 768px) {
+    #contact .grid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #contact .grid>div {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Prevent email text overflow */
+    #contact p {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+}
