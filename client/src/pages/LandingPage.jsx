@@ -850,7 +850,7 @@ const LandingPage = () => {
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
                             { icon: Phone, title: "Phone", info: "+91 75056 22456", sub: "24/7 Emergency Support" },
-                            { icon: Mail, title: "Email", info: "contact@hms.com", sub: "We reply within 24 hours" },
+                            { icon: Mail, title: "Email", info: "abhaysinghchauhanasc01234@gmail.com", sub: "We reply within 24 hours" },
                             { icon: MapPin, title: "Location", info: "123 Healthcare Ave", sub: "New Delhi, India" }
                         ].map((item, index) => (
                             <div key={index} className={`bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg text-center hover-lift hover-scale transition-smooth stagger-${index + 1} animate-fade-in`}>
@@ -914,7 +914,7 @@ const LandingPage = () => {
                                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
                                     <Instagram className="h-5 w-5" />
                                 </a>
-                                <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <a href="https://www.linkedin.com/in/abhay-singh-chauhan-485706310" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
                                     <Linkedin className="h-5 w-5" />
                                 </a>
                             </div>
