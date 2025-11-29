@@ -5,7 +5,7 @@ import BackButton from '../components/BackButton';
 
 const EmergencyPage = () => {
     const emergencyContacts = [
-        { type: 'Emergency Hotline', number: '911', available: '24/7', icon: Phone },
+        { type: 'Emergency Hotline', number: '112', available: '24/7', icon: Phone },
         { type: 'Ambulance Service', number: '+1 (555) 123-4567', available: '24/7', icon: Ambulance },
         { type: 'Poison Control', number: '+1 (800) 222-1222', available: '24/7', icon: AlertTriangle }
     ];
@@ -90,12 +90,12 @@ const EmergencyPage = () => {
                                     In Case of Life-Threatening Emergency
                                 </h3>
                                 <p className="text-red-800 dark:text-red-300 mb-3">
-                                    Call 911 immediately or come directly to our Emergency Department located at Building A, Ground Floor
+                                    Call 112 immediately or come directly to our Emergency Department located at Building A, Ground Floor
                                 </p>
                                 <div className="flex flex-wrap gap-3">
-                                    <a href="tel:911" className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-colors inline-flex items-center gap-2">
+                                    <a href="tel:112" className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-colors inline-flex items-center gap-2">
                                         <Phone className="h-5 w-5" />
-                                        Call 911
+                                        Call 112
                                     </a>
                                     <button className="px-6 py-3 bg-white dark:bg-gray-800 text-red-600 dark:text-red-400 border-2 border-red-600 rounded-lg font-semibold hover:bg-red-50 dark:hover:bg-gray-700 transition-colors inline-flex items-center gap-2">
                                         <MapPin className="h-5 w-5" />
