@@ -25,6 +25,8 @@ yarn-error.log*
 server/.env
 client/.env
 client/.env.local
+client/.env.production
+client/.env.development
 
 
 # Private Deployment Reference
