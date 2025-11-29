@@ -29,3 +29,6 @@ client/.env.local
 
 # Private Deployment Reference
 DEPLOYMENT_REFERENCE.md
+
+# Private Documentation
+LINKEDIN_README.md
