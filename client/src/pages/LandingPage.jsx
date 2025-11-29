@@ -668,7 +668,7 @@ const LandingPage = () => {
                             </h2>
                             <p className="text-lg text-gray-600 dark:text-gray-300">
                                 With over two decades of experience, we have established ourselves as a trusted name in healthcare.
-                                Our commitment to patient care and medical innovation sets us apart.
+                                Under the visionary leadership of **Abhay Singh Chauhan**, our commitment to patient care and medical innovation sets us apart.
                             </p>
                             <div className="space-y-4">
                                 {[
@@ -849,9 +849,9 @@ const LandingPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
-                            { icon: Phone, title: "Phone", info: "+1 (555) 123-4567", sub: "24/7 Emergency Support" },
+                            { icon: Phone, title: "Phone", info: "+91 75056 22456", sub: "24/7 Emergency Support" },
                             { icon: Mail, title: "Email", info: "contact@hms.com", sub: "We reply within 24 hours" },
-                            { icon: MapPin, title: "Location", info: "123 Healthcare Ave", sub: "Medical District, NY" }
+                            { icon: MapPin, title: "Location", info: "123 Healthcare Ave", sub: "New Delhi, India" }
                         ].map((item, index) => (
                             <div key={index} className={`bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg text-center hover-lift hover-scale transition-smooth stagger-${index + 1} animate-fade-in`}>
                                 <div className="w-12 h-12 bg-cyan-100 dark:bg-cyan-900 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse-slow">
